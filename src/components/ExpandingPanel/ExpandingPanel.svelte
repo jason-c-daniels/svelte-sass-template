@@ -7,8 +7,8 @@
     }
 
 </script>
-<style>
-    @import "ExpandingPanel.css";
+<style lang="scss">
+    @import "ExpandingPanel.scss";
 </style>
 
 <div class="panel">

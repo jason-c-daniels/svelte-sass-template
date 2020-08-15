@@ -1,8 +1,9 @@
 /**
     Global CSS variables (custom properties).
-    These should include the likes of color definitions for branding, media breakpoints, and related concepts.
+    These should include the likes of color definitions for branding, media breakpoints, and related items
+    that you want to be able to change at RUNTIME, otherwise use a globally included .scss file in Component.scss files.
 
-	for reference read: https://developers.google.com/web/updates/2016/02/css-variables-why-should-you-care
+	For reference read: https://developers.google.com/web/updates/2016/02/css-variables-why-should-you-care
 	and https://www.smashingmagazine.com/2018/05/css-custom-properties-strategy-guide/
 
  */

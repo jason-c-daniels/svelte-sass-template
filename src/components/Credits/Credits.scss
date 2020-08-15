@@ -1,6 +1,9 @@
+$background-color: #dddddd;
+
+
 .monospaced {
     font-family: "Courier New", monospace;
-    background-color: #dddddd;
+    background-color: $background-color;
 }
 
 p {

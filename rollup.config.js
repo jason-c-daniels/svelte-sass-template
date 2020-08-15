@@ -48,7 +48,15 @@ export default {
 		}),
 		postcss({
 			extract: true,
-			sourceMap: true,
+			minimize: true,
+			use: [
+				['sass', {
+					includePaths: [
+						'./src/theme',
+						'./node_modules'
+					]
+				}]
+			]
 		}),
 		builtins(),
 		resolve({

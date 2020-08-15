@@ -6,8 +6,8 @@
     export let appSettings = {applicationName: "WARNING: Please pass appSettings from within main.js props."};
 
 </script>
-<style>
-    @import "App.css";
+<style lang="scss">
+    @import "App.scss";
 </style>
 
 <svelte:head>
@@ -17,5 +17,6 @@
 <GlobalCss/>
 
 <main>
+    <h1>Hello {name}</h1>
     <Credits/>
 </main>

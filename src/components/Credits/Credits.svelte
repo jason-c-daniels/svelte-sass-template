@@ -1,5 +1,5 @@
-<style>
-    @import "Credits.css";
+<style lang="scss">
+    @import "Credits.scss";
 </style>
 
 <script>
