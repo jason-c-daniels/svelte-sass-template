@@ -20,7 +20,7 @@ Run the template app to see the full list.
 
 ## Using this template
 1. As a github template project  you can just click the "Use This Template" button.
-2. Run `npx degit jason-c-daniels/svelte-postcss-template your-project-name`
+2. Run `npx degit jason-c-daniels/svelte-sass-template your-project-name`
 3. Download a zip of the master branch from github.
 
 ## Where to go from here
