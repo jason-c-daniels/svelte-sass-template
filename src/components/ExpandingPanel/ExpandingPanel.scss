@@ -1,13 +1,12 @@
-$box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.28);
+@import '../../theme/global';
 
-:root {
-    --header-box-height: 22pt;
-    --header-font-height: 18pt;
-}
+$box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.28);
+$header-box-height: 22pt;
+$header-font-height: 18pt;
 
 .panel {
     width: 800px;
-    border: 0px solid #aaa;
+    border: 0 solid #aaa;
     border-radius: 2px;
     box-shadow: $box-shadow;
     height: auto;
@@ -23,10 +22,10 @@ $box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.28);
 }
 
 .panel-header {
-    height: var(--header-box-height);
-    background-color: var(--md-primary-color);
-    color: var(--md-on-primary);
-    font-size: var(--header-font-height);
+    height: $header-box-height;
+    background-color: $background-color;
+    color: $foreground-color;
+    font-size: $header-font-height;
     display: block;
     user-select: none;
 }
@@ -35,8 +34,8 @@ $box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.28);
 .expander {
     /* TODO: find a simple downward chevron SVG, and upward chevron */
     /* TODO: fill the SVGs with --md-on-primary */
-    height: var(--header-box-height);
-    width: var(--header-box-height);
+    height: $header-box-height;
+    width: $header-box-height;
     border: none;
     display: inline-block;
     text-align: center;
