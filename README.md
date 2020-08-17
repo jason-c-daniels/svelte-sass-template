@@ -1,7 +1,7 @@
 # Svelte SASS Template
 
 ## About
-This is an opinionated nearly bare bones Svelte project template that uses `node-sass` with PostCSS 
+This is an opinionated nearly bare bones Svelte project template that uses `sass` with PostCSS 
 and related tooling. The `index.html` and other portions have been pared down to bare bones.
 This should eliminate much of the desire or need to tinker with the `public` folder.
 
@@ -22,7 +22,7 @@ Run the template app to see the full list.
 1. As a github template project  you can just click the "Use This Template" button.
 2. Run `npx degit jason-c-daniels/svelte-sass-template your-project-name`
 3. Download a zip of the master branch from github.
-git 
+4. In the root of the repo folder run `npm install`
 
 ## Where to go from here
 You'll need to modify `package.json` and `main.js` with the actual name of your application. 
